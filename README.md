@@ -48,7 +48,7 @@ dataset/
 git clone https://github.com/shamim-sulaiman/vision-opencv-metal-surface-defect.git
 cd vision-opencv-metal-surface-defect
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run web_app.py
 ```
 
 ## 📸 Preview
