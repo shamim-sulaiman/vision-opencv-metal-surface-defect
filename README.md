@@ -1,6 +1,6 @@
 # 🔬 Metal Surface Defect Detection using OpenCV
 
-This interactive Streamlit app allows users to explore and detect surface defects on metal using the [Northeastern University (NEU) Surface Defect Dataset](https://www.kaggle.com/datasets/fantacher/neu-metal-surface-defects-data), with multiple OpenCV-based methods.
+This interactive Streamlit app allows users to explore and detect surface defects on metal using multiple OpenCV-based methods.
 
 ## 🚀 Features
 - Select from 6 defect classes (scratches, inclusion, patches, etc.)
