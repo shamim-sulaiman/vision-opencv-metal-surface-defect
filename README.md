@@ -39,8 +39,10 @@ dataset/
 ├── crazing/
 ...
 ```
+## 🔗 Live Demo
+[Click here to launch the app](https://metal-defect-detector.streamlit.app/)
 
-## ⚙️ Installation
+## ⚙️ Installation (Run locally)
 
 ```bash
 git clone https://github.com/shamim-sulaiman/vision-opencv-metal-surface-defect.git
