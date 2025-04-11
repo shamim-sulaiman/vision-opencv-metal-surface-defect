@@ -4,7 +4,7 @@ from PIL import Image
 from utils.defect_detector import detect_defect
 import streamlit as st
 
-#st.set_page_config(page_title="Metal Defect Detector", page_icon="🔬", layout="wide")
+st.set_page_config(page_title="Metal Defect Detector", page_icon="🔬", layout="wide")
 
 st.title("🔬 Metal Surface Defect Detection using OpenCV")
 with st.expander("📘 About This App", expanded=False):
