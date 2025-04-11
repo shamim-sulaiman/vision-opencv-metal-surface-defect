@@ -40,7 +40,7 @@ dataset/
 ...
 ```
 ## 🔗 Live Demo
-[Click here to launch the app](https://opencv-metal-surface-defect.streamlit.app/)
+[Click here to launch the app](https://metal-defect-detector.streamlit.app/)
 
 ## ⚙️ Installation (Run locally)
 
