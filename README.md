@@ -1,4 +1,4 @@
-# 🔬 Metal Surface Defect Detection using OpenCV
+# Metal Surface Defect Detection using OpenCV
 
 This interactive Streamlit app allows users to explore and detect surface defects on metal using multiple OpenCV-based methods.
 
