@@ -1,8 +1,8 @@
-# Metal Surface Defect Detection using OpenCV
+## Metal Surface Defect Detection using OpenCV
 
 This interactive Streamlit app allows users to explore and detect surface defects on metal using multiple OpenCV-based methods.
 
-## Features
+### Features
 - Select from 6 defect classes (scratches, inclusion, patches, etc.)
 - Preview raw and processed images side-by-side
 - Choose between 4 real-time detection modes:
@@ -13,16 +13,16 @@ This interactive Streamlit app allows users to explore and detect surface defect
 - Adjustable sliders for parameter tuning
 - Compact, responsive UI built in Streamlit
 
-## Detection Logic (OpenCV)
+### Detection Logic (OpenCV)
 Implemented in [`utils/defect_detector.py`](utils/defect_detector.py), where image processing modes are controlled by parameters and visualized live.
 
-## Dataset
+### Dataset
 This app uses the NEU Metal Surface Defect Dataset:
 - 6 defect types
 - 300 samples each (200x200 BMP images)
 - Source: [Kaggle Dataset](https://www.kaggle.com/datasets/fantacher/neu-metal-surface-defects-data)
 
-> 📌 Dataset should be placed in the `dataset/` folder with subfolders like this, if you want to add your own:
+> Dataset should be placed in the `dataset/` folder with subfolders like this, if you want to add your own:
 ```
 dataset/
 ├── scratches/
@@ -40,7 +40,7 @@ dataset/
 ...
 ```
 
-## How To Use
+### How To Use
 You can use the [web-based dashboard here](https://metal-defect-detector.streamlit.app/) 
 or you can run locally by following steps below;
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 streamlit run web_app.py
 ```
 
-## Preview
+### Preview
 | Original | Processed | Edge Output |
 |----------|-----------|-------------|
 | ![original](docs/original.jpg) | ![processed](docs/processed.jpg) | ![edge](docs/edge.jpg) |
